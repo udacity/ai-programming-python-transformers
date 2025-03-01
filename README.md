@@ -1,37 +1,74 @@
-# Purpose of This Repo
+# Programming Transformer Neural Networks with PyTorch – Udacity
 
-This repo is meant to be used to keep things organized during content development and act as the source of truth for all projects and exercises related to this course.
+Welcome to the **Programming Transformer Neural Networks with PyTorch** repository! This repository is a companion to Udacity's AI Programming with Python Nanodegree program, specifically focusing on Transformer Neural Networks and their implementation using PyTorch.
 
-## Folder Structure
+## Table of Contents
 
-### Lesson Folder
+- [Programming Transformer Neural Networks with PyTorch – Udacity](#programming-transformer-neural-networks-with-pytorch--udacity)
+  - [Table of Contents](#table-of-contents)
+  - [Course Overview](#course-overview)
+  - [Repository Structure](#repository-structure)
+  - [Getting Started](#getting-started)
+  - [Contributing](#contributing)
+  - [License](#license)
 
-This repo contains a folder for each `lesson` and one `project` folder.
+## Course Overview
 
-Example
-```
-lesson-1-hello
-lesson-2-world
-lesson-3-foo
-lesson-4-bar
-project
-```
+This repository supports **Udacity's Programming Transformer Neural Networks with PyTorch** course, which is part of the **AI Programming with Python Nanodegree**. 
 
-Each `lesson` folder is named using the naming convention of `lesson-#-name-of-lesson`.
+In this course, you will learn:
 
-Example
-```
-lesson-1-hello
-```
+1. **Introduction to Transformer Neural Networks**  
+   - Explore Transformer architecture and its applications, including ChatGPT.
+   - Learn about NLP fundamentals such as tokenization and model training using PyTorch.
 
-Four lesson folders have been provided as a template; However, you may need to add more or possibly use less than four depending on what is needed.
+2. **Building Transformer Neural Networks with PyTorch**  
+   - Implement a Transformer model using PyTorch.
+   - Understand key components such as tokenization, embeddings, multi-head attention, training, and text generation.
 
-If you require an additional lesson folder, you can make a copy of the folder and paste it into the root directory.
+3. **Using Pre-Trained Transformers**  
+   - Learn how to fine-tune pre-trained Transformer models.
+   - Explore their advantages, limitations, and applications to NLP tasks like text generation and question-answering.
 
-### Exercises Folder
+By the end of this course, you will have a solid understanding of how to build, train, and utilize Transformer-based models effectively in real-world applications.
 
-Each `lesson` folder contains an `exercises` folder. This `exercises` folder should contain all files and instructions necessary for the exercises along with the solution. The solutions for these exercises will be shared with students. See the `README` in the `exercises` folder for information about folder structure.
+## Repository Structure
 
-### Project Folder
+The repository is organized as follows:
 
-The `project` folder should contain all files and instructions necessary for setup. If possible, a set of instructions should be provided for both Udacity workspaces and a way to work locally (for both MacOS and Windows OS). At a minimum, one set of instructions should be provided. A `README` template has been provided in the project folder. This template layout should be used to write your README.
+- `lesson-1-introduction-to-transformer-neural-networks/` – Contains materials and exercises for Lesson 1, introducing Transformer Neural Networks.
+- `.github/workflows/` – GitHub Actions workflows for CI/CD processes.
+- `CODEOWNERS` – Specifies contributors responsible for maintaining the repository.
+- `LICENSE` – The license governing the use of this repository.
+- `README.md` – This file, providing an overview of the repository.
+
+## Getting Started
+
+To start working with this repository:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/ruddyscent/ai-programming-python-transformers.git
+   cd ai-programming-python-transformers
+   ```
+
+2. **Navigate to the lesson materials**:
+
+   ```bash
+   cd lesson-1-introduction-to-transformer-neural-networks
+   ```
+
+3. **Follow the instructions** in the lesson materials to set up your environment and begin coding.
+
+## Contributing
+
+We welcome contributions to enhance the learning experience:
+
+- **Fork the repository** and create a new branch for your feature or bug fix.
+- **Submit a pull request** with a clear description of your changes.
+- Ensure your code follows the repository’s guidelines and passes all tests.
+
+## License
+
+This project is licensed under the terms specified in the `LICENSE` file. Please review the license before using or contributing to this repository.
